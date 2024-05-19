@@ -8,7 +8,25 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 import java.util.Scanner;
-
+/**
+ * Project-5 - ProjectName : com-utimateqa
+ * BaseUrl = https://courses.ultimateqa.com/
+ * 1. Setup chrome browser.
+ * 2. Open URL.
+ * 3. Print the title of the page.
+ * 4. Print the current url.
+ * 5. Print the page source.
+ * 6. Click on ‘Sign In’ link
+ * 7. Print the current url
+ * 8. Enter the email to email field.
+ * 9. Enter the password to password field.
+ * 10. Click on Login Button.
+ * 11. Navigate to baseUrl.
+ * 12. Navigate forward to Homepage.
+ * 13. Navigate back to baseUrl.
+ * 14. Refresh the page.
+ * 15. Close the browser
+ */
 public class MultiBrowserTesting {
     static WebDriver driver;
     static String baseUrl = "https://courses.ultimateqa.com/";                        //Base Url
